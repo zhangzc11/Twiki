@@ -71,9 +71,15 @@
    * (Daniel, 13/09/17, Zee at MoCa) https://indico.cern.ch/event/662921/contributions/2719766/attachments/1522639/2379427/Zee_MoCa.pdf
    * (Zhicai, 17/11/17, analysis update at LLP meeting) https://indico.cern.ch/event/681779/contributions/2793288/attachments/1560769/2456940/DelayedPhoton_17Nov2017.pdf
    * (Zhicai, 06/06/18, trigger efficiency plots for 2018A data) https://indico.cern.ch/event/734148/contributions/3027883/subcontributions/256606/attachments/1662766/2664948/DelayedPhoton_Trigger_2018A_06June2018_1.pdf
+   * (Zhicai, 03/08/18, first comprehensive update at LLP since July2018 revieve) https://indico.cern.ch/event/746760/contributions/3087174/attachments/1697294/2732354/DisplacedPhoton_03Aug2018_EXO_LLPWG.pdf
+   * (Zhicai, 31/08/18, ECAL timing correction preliminary, at LLP meeting) https://indico.cern.ch/event/751280/contributions/3115628/attachments/1708481/2753543/DisplacedPhoton_31Aug2018_EXO_LLPWG.pdf
    
 ## Analysis Framework
-
+   * MINIAOD -> RazorNtupler: https://github.com/RazorCMS/SUSYBSMAnalysis-RazorTuplizer/blob/master/python/razorTuplizer_Data_2016_Rereco_reMiniAOD_EcalRechits_OOTpho.py
+   * RazorNtuple -> ZeeTiming Ntuple: https://github.com/RazorCMS/RazorAnalyzer/blob/master/analyzers/ZeeTiming.cc
+   * RazorNtuple -> DelayedPhoton Ntuple: https://github.com/RazorCMS/RazorAnalyzer/blob/master/analyzers/DelayedPhotonAnalyzer.cc
+   * DelayedPhoton plots and limits: https://github.com/zhangzc11/DelayedPhoton
+  
 ## Rerunning MiniAOD in 9_2_X to retain out of time photons
 
 * use CMSSW_9_2_5
