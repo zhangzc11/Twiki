@@ -183,21 +183,15 @@ eventTime = iEvent.eventAuxiliary().time().unixTime();
 DelayedPhoton analyzer and output ntuples
 -----------------
 
+* List of ntuples available (at Caltech T2)
+   * /mnt/hadoop/store/group/phys_susy/razor/Run2Analysis/DelayedPhotonAnalysis/2016/orderByPt
+   * /mnt/hadoop/store/group/phys_susy/razor/Run2Analysis/DelayedPhotonAnalysis/2016/orderByTime
+
 ZeeTiming analyzer and output ntuples
 -----------------
 
-* List of ntuples available
-   * /eos/cms/store/group/phys_susy/razor/EcalTiming/ntuples_V3p14_09May2017/     
-      * 2016BCDEFG ntuples 
-      * tags used: "EcalPedestals_Legacy2016_time_v1" for pedestal and "EcalTimeCalibConstants_Legacy2016_v1" for time calibration tag
-   * /eos/cms/store/group/phys_susy/razor/EcalTiming/ntuples_V3p14_05Aug2017/     
-      * 2016BCDEFG ntuples
-      * fixed the cluster weighted time  
-      * tags used: "EcalPedestals_Legacy2016_time_v1" for pedestal and "EcalTimeCalibConstants_Legacy2016_v1" for time calibration tag
-   * /eos/cms/store/group/phys_susy/razor/EcalTiming/ntuples_V3p16_21Aug2017/     
-      * 2016BCDEFG ntuples
-      * with transparency branch
-      * tags used: "EcalPedestals_Legacy2016_time_v1" for pedestal and "EcalTimeCalibConstants_Legacy2016_v1" for time calibration tag
+* List of ntuples available (at Caltech T2)
+   * /mnt/hadoop/store/group/phys_susy/razor/Run2Analysis/EcalTiming/ntuples_V4p1_31Aug2018
 * slides/plots:
    * Zhicai - 23Apr2017 (slides about how to apply different corrections to get the best time resolution): https://cernbox.cern.ch/index.php/s/yWIJCQjtQmZIsTW 
    * Time resolution vs. run period: http://zhicaiz.web.cern.ch/zhicaiz/sharebox/EcalTiming/15May2017/ 
