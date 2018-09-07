@@ -7,14 +7,16 @@ Table of contents
    * [Table of contents](#table-of-contents)
    * [Action List and Schedule](#action-list-and-schedule)
    * [Documentation](#documentation)
+      * [External References](#external-references)
+      * [Work of Cornell Group](#work-of-cornell-group)
+      * [Work of Caltech Group](#work-of-caltech-group)
    * [Analysis Framework](#analysis-framework)
+      * [ReMINIAOD for OOT photons](#reminiaod-for-oot-photons)
+      * [ECAL Timing Intercalibration](#ECAL-Timing-Intercalibration)
 <!--te-->
-
-
 
 Action List and Schedule
 =================
-
 
    * (done) smear MC time resolution to match with data
    * (done) add MET filters
@@ -47,8 +49,8 @@ Action List and Schedule
 Documentation
 =================
 
-
-* external references
+External References
+-----------------
 
    * http://lanl.arxiv.org/pdf/1212.1838v2
    * (Franci thesis) http://www.phys.uniroma1.it/fisica/sites/default/files/DOTT_FISICA/MENU/03DOTTORANDI/TesiFin23/Franci.pdf
@@ -67,7 +69,8 @@ Documentation
    * (Wells, 25/11/16, tried to send exotic mother only to Geant4 which caused a problem for us) https://indico.cern.ch/event/590180/contributions/2380149/attachments/1377737/2093496/20161125_LLWGGeantSimulation.pdf 
       * (Badder, 13/09/17, 2017 Timing Calibration) https://indico.cern.ch/event/662921/contributions/2718756/attachments/1522547/2379256/EcalTiming_13_09_2017.pdf
 
-* work of Cornell group
+Work of Cornell Group
+-----------------
 
    * (Kevin, 01/07/16, ZeeTiming): https://indico.cern.ch/event/548294/contributions/2222985/attachments/1302338/1944764/timing_studies_dispho.pdf
    * (Kevin, 28/03/17, request to store OOT photons in MiniAOD) https://indico.cern.ch/event/626270/contributions/2529266/attachments/1434855/2206127/ootecal_xpog280317.pdf
@@ -78,7 +81,9 @@ Documentation
    * (Kevin, 27/04/18, analysis update) https://indico.cern.ch/event/723764/contributions/2976570/attachments/1641243/2621053/llp_270418_mcdermott_v5.pdf
    * (Kevin, 08/06/18, analysis update, with big improvement in limits) https://indico.cern.ch/event/734879/contributions/3031010/attachments/1664663/2668225/llp_mcdermott_080618_v3.pdf
 
-* our own work documentation
+Work of Caltech Group
+-----------------
+
    * (Analysis note, 2016 data) http://zhicaiz.web.cern.ch/zhicaiz/sharebox/notes/AN-17-318_temp.pdf
    * (Zhicai, 14/08/17, bug in cmssw about delayed SimHits) https://indico.cern.ch/event/659605/contributions/2689979/attachments/1507923/2350239/issue_CMSSW_delayed_SimHits_14Aug2017.pdf
    * (Daniel, 08/08/17, Zee timing studies) https://indico.cern.ch/event/656603/contributions/2683936/attachments/1505792/2346441/Zee.pdf
@@ -99,7 +104,7 @@ Analysis Framework
    * RazorNtuple -> DelayedPhoton Ntuple: https://github.com/RazorCMS/RazorAnalyzer/blob/master/analyzers/DelayedPhotonAnalyzer.cc
    * DelayedPhoton plots and limits: https://github.com/zhangzc11/DelayedPhoton
   
-Rerunning MiniAOD in 9_2_X to retain out of time photons
+ReMINIAOD for OOT photons
 -----------------
 
 * use CMSSW_9_2_5
