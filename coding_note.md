@@ -1,4 +1,4 @@
-####linux 修改启动顺序
+#### linux 修改启动顺序
 
 ```
 sudo gedit /etc/default/grub
