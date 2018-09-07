@@ -20,8 +20,8 @@ Table of contents
    * [MC Samples](#mc-samples)
       * [Pythia fragments](#pythia-fragments)
       * [Extra instructions in various steps](#Extra-instructions-in-various-steps)
-      * [Private GMSB and HVDS Signal samples](#(private-gmsb-and-hvds-signal-samples)
-      * [Official GMSB and HVDS Signal samples](#(official-gmsb-and-hvds-signal-samples)
+      * [Private GMSB and HVDS Signal samples](#private-gmsb-and-hvds-signal-samples)
+      * [Official GMSB and HVDS Signal samples](#official-gmsb-and-hvds-signal-samples)
       * [2016 Background Samples](#2016-background-samples)
 <!--te-->
 
