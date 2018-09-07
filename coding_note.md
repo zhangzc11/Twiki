@@ -1,10 +1,10 @@
-===========================================================================
 [linux 修改启动顺序]
+===========================================================================
 sudo gedit /etc/default/grub
 sudo update-grub
 
-============================================================================
 [ubuntu下安装root]
+============================================================================
 http://root.cern.ch/drupal/content/build-prerequisites
 http://root.cern.ch/drupal/content/installing-root-source
 
@@ -37,16 +37,17 @@ xfonts-100dpi - 100 dpi fonts for X
 
 Cheers.
 Last edited by lixo1 on Fri Apr 29, 2011 16:17, edited 1 time in total.
-===========================================================================================
+
 [unbutu 安装matlab(大于或等于2012b的版本只能安装在64位系统中)]
+===========================================================================================
 http://wmyming01.blog.163.com/blog/static/12964879120121120102253573/
 or:
 http://www.linuxidc.com/Linux/2013-06/86130.htm
 
 图标：sudo chmod a+w -R ~/.matlab
 
-===========================================================================================
 [ssh]
+===========================================================================================
 
 ssh-add ~/.ssh/ssh/id_rsa
 
@@ -56,32 +57,37 @@ source ~mroot.csh
 
 wangzhe@ln1 ~/depot/data/TWin/11_P12e_AdSimple_OWSNhit15_Tc400us_0.7MeV/H/EH1
 
-==============================================================================================
 [设置开机文本框启动]
+==============================================================================================
 sudo vi /etc/default/grub 
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 -->
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash text"
 -->
 sudo update-grub
-==============================================================================================
+
 [replace in all files]
+==============================================================================================
 sed -i "s/.png/.pdf/g" `grep .png -rl ./`
 sed -i "s/.pdf/.png/g" `grep .pdf -rl ./`
 [delete a line with pattern for all files]
 sed -i '/pattern to match/d' infile
 sed -i "/pattern at end of line$/d" infile
-==============================================================================================
+
 [vim delete lines contain word]
+==============================================================================================
 g/faild/d
-==============================================================================================
+
 [vim delete from pattern to the end of line]
+==============================================================================================
 :g/{pattern}/normal nd$
-==============================================================================================
+
 [copy from github.com to local]
-git clone git@github.com:zhangzc11/RazorFramework.git
 ==============================================================================================
+git clone git@github.com:zhangzc11/RazorFramework.git
+
 [push to github.com]
+==============================================================================================
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 git init
 git add .
@@ -91,61 +97,76 @@ git remote -v
 git push origin master
 git pull
 git add ***
-==============================================================================================
+
 [CMSSW]
+==============================================================================================
 scram list CMSSW
 cmsrel CMSSW_X_Y_Z
 cd CMSSW_X_Y_Z
 cmsenv
-==============================================================================================
+
 [show the number of files in current directory:]
+==============================================================================================
 ls |wc -l
-==============================================================================================
+
 [list the files by size]
+==============================================================================================
 ls -lSh
-==============================================================================================
+
 [copy files from cern eos (password required)]
+==============================================================================================
 xrdcp root://eoscms.cern.ch//eos/cms/store/caf/user/zhicaiz/2015A_RAW_ALL/iter_0/2015A_EcalNtp_0.root ./
-==============================================================================================
+
 [useful example about how to submit condor jobs in t3-higgs]
+==============================================================================================
 /home/zhicaiz/ECALpro/CMSSW_6_2_11/src/pi0-analysis/submit_fastAnalysis_condor.sh
-==============================================================================================
+
 [control the margin when divide the TCanvas to multiple plots]
-c1->cd(); gPad->SetLeftMargin(0.15); gPad->SetBottomMargin(0.15)
 ==============================================================================================
+c1->cd(); gPad->SetLeftMargin(0.15); gPad->SetBottomMargin(0.15)
+
 [quota eos]
+==============================================================================================
 first: eos
 then: cd /eos/cms/store/caf/user/zhicaiz/
 then: quota /eos/cms/store/caf/user/zhicaiz/
-==============================================================================================
+
 [batch kill all jobs]
+==============================================================================================
 bkill -u zhicaiz -0
-==============================================================================================
-==============================================================================================
+
 [CMS run summary]
+==============================================================================================
 https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/RunSummary
-==============================================================================================
+
 [go to external disks:]
+==============================================================================================
 cd /media/
-==============================================================================================
+
 [ls sort by file size]
-ls -lSh
 ==============================================================================================
+ls -lSh
+
 [how to find files by a eos pointer]
+==============================================================================================
 cern das to get the directory (just search with the pointer you get): https://cmsweb.cern.ch/das/
 add the site you want to use: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookXrootdService
-==============================================================================================
+
 TH2Poly 
+==============================================================================================
 https://github.com/cmorgoth/RazorFramework/blob/master/HggRazor/PlottingAndSystematic/app/GetHggRazorSystematics.cc
 https://github.com/cmorgoth/RazorFramework/blob/master/HggRazor/CommonTools/src/HggRazorSystematics.cc
 [4/15/16, 15:09:24] Cristian Peña Herrera: h2p = new TH2Poly(this->processName+"+nominal", "", 150, 10000, 0, 1);
 [4/15/16, 15:09:39] Cristian Peña Herrera: h2p->AddBin(tmp[0], tmp[1], tmp[2], tmp[3]);
 [4/15/16, 15:14:24] Cristian Peña Herrera: std::vector<float*> myBinning =  SetBinning_highpt();
 for ( auto tmp : myBinning ) h2p->AddBin(tmp[0], tmp[1], tmp[2], tmp[3]);
-==============================================================================================
+
 check out a single branch from a git repository:
-git clone -b mybranch --single-branch git://sub.domain.com/repo.git
 ==============================================================================================
+git clone -b mybranch --single-branch git://sub.domain.com/repo.git
+
+==============================================================================================
+[git search]
 vim search for beginning of a line: ^
 vim search for end of a line: \n
 vim adding string end of each line: :%s/$/addedstring/g
