@@ -114,7 +114,7 @@ cmsDriver.py step3 --conditions 80X_mcRun2_asymptotic_2016_TrancheIV_v6 --mc --s
    * [pedestal.C](https://github.com/RazorCMS/Pi0Tuplizer/blob/master/analysis/scripts/pedestal.C): takes a list of pedestal text files and save them into a root file in which one entry contains the entire data from one text file (*warning*: for some unknown reason if you do it in this way the file size is *much* larger than the sum of hadded single root files in the previous method)
    * similarly for [timeCalibTag_perFile.C](https://github.com/RazorCMS/Pi0Tuplizer/blob/master/analysis/scripts/timeCalibTag_perFile.C) and [timeCalibTag.C](https://github.com/RazorCMS/Pi0Tuplizer/blob/master/analysis/scripts/timeCalibTag.C)
 
-*How to use the text file or the root file:*
+* How to use the text file or the root file:
    * text files: each file is an IOV, just open it and you can see what it means;
    * root tree: each entry is an IOV, it has the run range or time range, and some vectors such as iEta, iPhi, DetId, and the measurement on that crystal (same as the text file)
    * to determine which IOV to use, you need either the event number or the timestamp of your event:
@@ -202,7 +202,7 @@ cmsDriver.py REMINIAOD -s PAT --runUnscheduled --nThreads 4 --data --era Run2_20
 process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AOD config) or process.MINIAODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',] (for MiniAOD config)
 ```
 
-         * Method 2: try to get the genParticles_t0 collection (which is much much smaller than the HepMC collection): 1) in GEN-SIM-RAW (step 1) and AOD (step 2) step, get the following commits and re-compile cmssw: [commit 1](https://github.com/cms-sw/cmssw/commit/064ea373f714e1c0a78df29194edad8a824c0fcf) and [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and then run the same cmsDriver command and do get new GEN-SIM-RAW and AOD (GEN-SIM to GEN-SIM-RAW to AODSIM); 2) in MiniAOD (step 3) step, get the following commit:  [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and and redo the MiniAOD (AODSIM to MINIAODSIM)
+      * Method 2: try to get the genParticles_t0 collection (which is much much smaller than the HepMC collection): 1) in GEN-SIM-RAW (step 1) and AOD (step 2) step, get the following commits and re-compile cmssw: [commit 1](https://github.com/cms-sw/cmssw/commit/064ea373f714e1c0a78df29194edad8a824c0fcf) and [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and then run the same cmsDriver command and do get new GEN-SIM-RAW and AOD (GEN-SIM to GEN-SIM-RAW to AODSIM); 2) in MiniAOD (step 3) step, get the following commit:  [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and and redo the MiniAOD (AODSIM to MINIAODSIM)
       * If you are still not sure, copy everything from Zhicai's directory (80X for step1 and step2, 92X for step3): /afs/cern.ch/work/z/zhicaiz/public/release/McM/forGillian/withGenParticleFix
 
 
@@ -210,11 +210,12 @@ process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AO
 
    * (Kevin, see his email on 07Aug2017-12:04AM CERN TIME for details) [/GMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM/kmcdermo-GMSB_L180_Ctau6000_userHLT_legacy_PAT-MINIAODSIM-v1-ef93839e5df81cfe97dbe8d1e73bf805/USER](https://cmsweb.cern.ch/das/request?instance=prod%2Fphys03&limit=50&input=%2FGMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM%2Fkmcdermo-GMSB_L180_Ctau6000_userHLT_legacy_PAT-MINIAODSIM-v1-ef93839e5df81cfe97dbe8d1e73bf805%2FUSER&view=list)
       * RazorNtuple (on eos): /eos/cms/store/group/phys_susy/razor/run2/Run2DelayedPhotonNtuple_92X/GMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM/2190mm_withOOT.root
-   * (Private, grid, on T2_Caltech, MINIAODSIM, 2016) https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=dataset%3D%2FGMSB_L*_13TeV-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GMSB_*_25Oct2017_MINIAODSIM_T2Caltech-159e03626145fdd5d707939f335a7521%2FUSER
+   * (Private, grid, on T2_Caltech, MINIAODSIM, 2016): [das link] (https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=dataset%3D%2FGMSB_L*_13TeV-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GMSB_*_25Oct2017_MINIAODSIM_T2Caltech-159e03626145fdd5d707939f335a7521%2FUSER)
 
 ### (Official) GMSB/HVDS 2016 Signal samples
 
    * HVDS: https://cms-pdmv.cern.ch/mcm/requests?range=EXO-RunIISummer15GS-10956,EXO-RunIISummer15GS-11039&page=0&shown=127
+   * GMSB: https://cms-pdmv.cern.ch/mcm/requests?range=EXO-RunIISummer15GS-11171,EXO-RunIISummer15GS-11226&page=0&shown=127
 
 ### (Official) GMSB/HVDS 2017 Signal samples
 
@@ -222,17 +223,13 @@ process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AO
 
    * GJets, HT binned
    
-      * Start from Official AODSIM:
-   
-   https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=dataset%3D%2FGJets_HT-*_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v*%2FAODSIM
-   
-      * Private reMINIAOD at Caltech T2:
-   
-   https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=%2FGJets_HT-*_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GJets_HT*_reMiniAOD_19Sept2017-*%2FUSER
+      * Start from Official AODSIM: [das link](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=dataset%3D%2FGJets_HT-*_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v*%2FAODSIM)
+      * Private reMINIAOD at Caltech T2: [das link](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=%2FGJets_HT-*_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GJets_HT*_reMiniAOD_19Sept2017-*%2FUSER)
    
    * QCD, HT binned
    
-      * Start from Official AODSIM:
+      * Start from Official AODSIM: [das link](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=dataset%3D%2FQCD_HT*_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v*%2FAODSIM)
+      * Private reMINIAOD at Caltech T2: [das link](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=%2FQCD_HT*_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_QCD_HT*_reMiniAOD_19Sept2017*%2FUSER)
    
 
  
