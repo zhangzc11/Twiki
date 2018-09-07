@@ -1,10 +1,9 @@
 
 
-Table of contents
+Table of Contents
 =================
 
 <!--ts-->
-   * [Table of contents](#table-of-contents)
    * [Action List and Schedule](#action-list-and-schedule)
    * [Documentation](#documentation)
       * [External References](#external-references)
