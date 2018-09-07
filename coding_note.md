@@ -47,7 +47,7 @@ http://wmyming01.blog.163.com/blog/static/12964879120121120102253573/
 or:
 http://www.linuxidc.com/Linux/2013-06/86130.htm
 
-图标：sudo chmod a+w -R ~/.matlab
+icon: sudo chmod a+w -R ~/.matlab
 
 #### ssh
 
