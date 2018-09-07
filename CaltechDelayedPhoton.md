@@ -88,15 +88,15 @@ cmsDriver.py step3 --conditions 80X_mcRun2_asymptotic_2016_TrancheIV_v6 --mc --s
 
 ### How to Dump ECAL Conditions (like IC, pedestal, etc) from Database
 
-*Tool
+* Tool
 
  (provided by EGM POG)  [https://github.com/ferriff/usercode](https://github.com/ferriff/usercode)
 
-*List of ECAL tags in DB that you can dump
+* List of ECAL tags in DB that you can dump
 
  [https://twiki.cern.ch/twiki/bin/view/CMS/EcalDB](https://twiki.cern.ch/twiki/bin/view/CMS/EcalDB)
 
-*Extra Instructions
+* Extra Instructions
 
    * First you need to know which tag you want to dump. Different tags are different measurements. (To see which ECAL tags are used in a global tag, clike the corresponding global tag here and you'll find the information in condDB: SWGuideFrontierConditions )
    * The output is a bunch of text files. Each file represent a measurement in one IOV, and in the file there are usually the crystal DetID, iEta, iPhi and the corresponding measurement.
@@ -149,7 +149,7 @@ eventTime = iEvent.eventAuxiliary().time().unixTime();
       * 2016BCDEFG ntuples
       * with transparency branch
       * tags used: "EcalPedestals_Legacy2016_time_v1" for pedestal and "EcalTimeCalibConstants_Legacy2016_v1" for time calibration tag
-*slides/plots:
+* slides/plots:
    * Zhicai - 23Apr2017 (slides about how to apply different corrections to get the best time resolution): https://cernbox.cern.ch/index.php/s/yWIJCQjtQmZIsTW 
    * Time resolution vs. run period: http://zhicaiz.web.cern.ch/zhicaiz/sharebox/EcalTiming/15May2017/ 
    * Energy vs. time: http://zhicaiz.web.cern.ch/zhicaiz/sharebox/EcalTiming/15May2017/E_vs_time/
