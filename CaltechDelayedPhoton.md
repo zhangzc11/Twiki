@@ -11,8 +11,18 @@ Table of contents
       * [Work of Cornell Group](#work-of-cornell-group)
       * [Work of Caltech Group](#work-of-caltech-group)
    * [Analysis Framework](#analysis-framework)
+      * [Github Repositories](#github-repositories)
       * [ReMINIAOD for OOT photons](#reminiaod-for-oot-photons)
-      * [ECAL Timing Intercalibration](#ECAL-Timing-Intercalibration)
+      * [ECAL Timing Intercalibration](#ecal-timing-intercalibration)
+      * [ZeeTiming analyzer and output ntuples](#zeeTiming-analyzer-and-output-ntuples)
+   * [Datasets](#datasets)
+      * [2016 DoubleEG](#2016-doubleeg)
+   * [MC Samples](#mc-samples)
+      * [Pythia fragments](#pythia-fragments)
+      * [Extra instructions in various steps](#Extra-instructions-in-various-steps)
+      * [Private GMSB and HVDS Signal samples](#(private-gmsb-and-hvds-signal-samples)
+      * [Official GMSB and HVDS Signal samples](#(official-gmsb-and-hvds-signal-samples)
+      * [2016 Background Samples](#2016-background-samples)
 <!--te-->
 
 Action List and Schedule
@@ -99,6 +109,8 @@ Work of Caltech Group
 Analysis Framework
 =================
 
+Github Repositories
+-----------------
    * MINIAOD -> RazorNtupler: https://github.com/RazorCMS/SUSYBSMAnalysis-RazorTuplizer/blob/master/python/razorTuplizer_Data_2016_Rereco_reMiniAOD_EcalRechits_OOTpho.py
    * RazorNtuple -> ZeeTiming Ntuple: https://github.com/RazorCMS/RazorAnalyzer/blob/master/analyzers/ZeeTiming.cc
    * RazorNtuple -> DelayedPhoton Ntuple: https://github.com/RazorCMS/RazorAnalyzer/blob/master/analyzers/DelayedPhotonAnalyzer.cc
@@ -246,23 +258,21 @@ process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AO
       * If you are still not sure, copy everything from Zhicai's directory (80X for step1 and step2, 92X for step3): /afs/cern.ch/work/z/zhicaiz/public/release/McM/forGillian/withGenParticleFix
 
 
-(Private) GMSB/HVDS Signal samples
+Private GMSB and HVDS Signal samples
 -----------------
 
    * (Kevin, see his email on 07Aug2017-12:04AM CERN TIME for details) [/GMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM/kmcdermo-GMSB_L180_Ctau6000_userHLT_legacy_PAT-MINIAODSIM-v1-ef93839e5df81cfe97dbe8d1e73bf805/USER](https://cmsweb.cern.ch/das/request?instance=prod%2Fphys03&limit=50&input=%2FGMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM%2Fkmcdermo-GMSB_L180_Ctau6000_userHLT_legacy_PAT-MINIAODSIM-v1-ef93839e5df81cfe97dbe8d1e73bf805%2FUSER&view=list)
       * RazorNtuple (on eos): /eos/cms/store/group/phys_susy/razor/run2/Run2DelayedPhotonNtuple_92X/GMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM/2190mm_withOOT.root
    * (Private, grid, on T2_Caltech, MINIAODSIM, 2016): [das link](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=dataset%3D%2FGMSB_L*_13TeV-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GMSB_*_25Oct2017_MINIAODSIM_T2Caltech-159e03626145fdd5d707939f335a7521%2FUSER)
 
-(Official) GMSB/HVDS 2016 Signal samples
+Official GMSB and HVDS Signal samples
 -----------------
 
    * HVDS: https://cms-pdmv.cern.ch/mcm/requests?range=EXO-RunIISummer15GS-10956,EXO-RunIISummer15GS-11039&page=0&shown=127
    * GMSB: https://cms-pdmv.cern.ch/mcm/requests?range=EXO-RunIISummer15GS-11171,EXO-RunIISummer15GS-11226&page=0&shown=127
 
-(Official) GMSB/HVDS 2017 Signal samples
------------------
 
-(Private/Official re-miniAOD) 2016 Background samples
+2016 Background samples
 -----------------
 
    * GJets, HT binned
