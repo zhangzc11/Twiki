@@ -1,11 +1,11 @@
-#### linux 修改启动顺序
+#### linux change boot order
 
 ```
 sudo gedit /etc/default/grub
 sudo update-grub
 ```
 
-####ubuntu下安装root
+#### ubuntu install root
 
 ```
 http://root.cern.ch/drupal/content/build-prerequisites
@@ -41,7 +41,7 @@ Last edited by lixo1 on Fri Apr 29, 2011 16:17, edited 1 time in total.
 
 ```
 
-####unbutu 安装matlab(大于或等于2012b的版本只能安装在64位系统中)
+#### unbutu install matlab
 
 http://wmyming01.blog.163.com/blog/static/12964879120121120102253573/
 or:
@@ -49,7 +49,7 @@ http://www.linuxidc.com/Linux/2013-06/86130.htm
 
 图标：sudo chmod a+w -R ~/.matlab
 
-####ssh
+#### ssh
 
 ```
 ssh-add ~/.ssh/ssh/id_rsa
@@ -61,7 +61,7 @@ source ~mroot.csh
 wangzhe@ln1 ~/depot/data/TWin/11_P12e_AdSimple_OWSNhit15_Tc400us_0.7MeV/H/EH1
 ```
 
-####设置开机文本框启动
+#### set text start
 
 ```
 sudo vi /etc/default/grub 
@@ -72,39 +72,39 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash text"
 sudo update-grub
 ```
 
-####replace in all files
+#### replace in all files
 
 ```
 sed -i "s/.png/.pdf/g" `grep .png -rl ./`
 sed -i "s/.pdf/.png/g" `grep .pdf -rl ./`
 ```
 
-####delete a line with pattern for all files
+#### delete a line with pattern for all files
 
 ```
 sed -i '/pattern to match/d' infile
 sed -i "/pattern at end of line$/d" infile
 ```
 
-####vim delete lines contain word
+#### vim delete lines contain word
 
 ```
 g/faild/d
 ```
 
-####vim delete from pattern to the end of line
+#### vim delete from pattern to the end of line
 
 ```
 :g/{pattern}/normal nd$
 ```
 
-####copy from github.com to local
+#### copy from github.com to local
 
 ```
 git clone git@github.com:zhangzc11/RazorFramework.git
 ```
 
-####push to github.com
+#### push to github.com
 
 ```
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
@@ -118,7 +118,7 @@ git pull
 git add ***
 ```
 
-####CMSSW
+#### CMSSW
 
 ```
 scram list CMSSW
@@ -127,37 +127,37 @@ cd CMSSW_X_Y_Z
 cmsenv
 ```
 
-####show the number of files in current directory
+#### show the number of files in current directory
 
 ```
 ls |wc -l
 ```
 
-####list the files by size
+#### list the files by size
 
 ```
 ls -lSh
 ```
 
-####copy files from cern eos (password required)
+#### copy files from cern eos (password required)
 
 ```
 xrdcp root://eoscms.cern.ch//eos/cms/store/caf/user/zhicaiz/2015A_RAW_ALL/iter_0/2015A_EcalNtp_0.root ./
 ```
 
-####useful example about how to submit condor jobs in t3-higgs
+#### useful example about how to submit condor jobs in t3-higgs
 
 ```
 /home/zhicaiz/ECALpro/CMSSW_6_2_11/src/pi0-analysis/submit_fastAnalysis_condor.sh
 ```
 
-####control the margin when divide the TCanvas to multiple plots
+#### control the margin when divide the TCanvas to multiple plots
 
 ```
 c1->cd(); gPad->SetLeftMargin(0.15); gPad->SetBottomMargin(0.15)
 ```
 
-####quota eos
+#### quota eos
 
 ```
 first: eos
@@ -165,38 +165,38 @@ then: cd /eos/cms/store/caf/user/zhicaiz/
 then: quota /eos/cms/store/caf/user/zhicaiz/
 ```
 
-####batch kill all jobs
+#### batch kill all jobs
 
 ```
 bkill -u zhicaiz -0
 ```
 
-####CMS run summary
+#### CMS run summary
 
 ```
 https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/RunSummary
 ```
 
-####go to external disks:
+#### go to external disks:
 
 ```
 cd /media/
 ```
 
-####ls sort by file size
+#### ls sort by file size
 
 ```
 ls -lSh
 ```
 
-####how to find files by a eos pointer
+#### how to find files by a eos pointer
 
 ```
 cern das to get the directory (just search with the pointer you get): https://cmsweb.cern.ch/das/
 add the site you want to use: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookXrootdService
 ```
 
-####TH2Poly 
+#### TH2Poly 
 
 ```
 https://github.com/cmorgoth/RazorFramework/blob/master/HggRazor/PlottingAndSystematic/app/GetHggRazorSystematics.cc
@@ -212,7 +212,7 @@ check out a single branch from a git repository:
 git clone -b mybranch --single-branch git://sub.domain.com/repo.git
 ```
 
-####git search
+#### git search
 
 ```
 vim search for beginning of a line: ^
@@ -220,7 +220,7 @@ vim search for end of a line: \n
 vim adding string end of each line: :%s/$/addedstring/g
 ```
 
-####how to set lxplus so that when you "cd ~/work/xxx" it understands as "cd /afs/cern.ch/work/z/zhicaiz/xxx"
+#### how to set lxplus so that when you "cd ~/work/xxx" it understands as "cd /afs/cern.ch/work/z/zhicaiz/xxx"
 
 ```
 try "ln -s /afs/cern.ch/work/z/zhicaiz ~/work"
@@ -228,7 +228,7 @@ it will create a symbolic link that persists
 ```
 
 
-####Change the queue of submitted jobs
+#### Change the queue of submitted jobs
 
 ```
 bjobs | grep PEND | awk '{print $1}' | xargs -n 1 bmod -q 1nd
@@ -237,7 +237,7 @@ bjobs | grep PEND | grep 1nd |awk '{print $1}' | xargs -n 1 bmod -q cmscaf1nd
 ```
 
 
-####How to check duplicate events in a TTree
+#### How to check duplicate events in a TTree
 
 ```
 //root[0] myTree->SetScanField(0);
@@ -255,25 +255,25 @@ $ sort -u tree.log | wc -l
 If the tree has duplicated events, the above two wc -l will not give same number of lines.
 ```
 
-####cmssw Output Command
+#### cmssw Output Command
 
 ```
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideSelectingBranchesForOutput
 ```
 
-####scram build options
+#### scram build options
 
 ```
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideScram#CmsswSCRAMCompile
 ```
 
-####how to make pull request to cmssw
+#### how to make pull request to cmssw
 
 ```
 http://cms-sw.github.io/tutorial.html
 ```
 
-####git show origin url:
+#### git show origin url:
 
 ```
 git remote -v
@@ -281,19 +281,19 @@ git change origin url:
 git remote set-url origin https://github.com/zhangzc11/REPOSITORY.git
 ```
 
-####pick one event from dataset:
+#### pick one event from dataset:
 
 ```
 edmPickEvents.py 'DatasetName' run:lumi:event
 ```
 
-####loop
+#### loop
 
 ```
 for f in $(ls *.tar.gz); do tar -zxvf $f; done
 ```
 
-####add LS in process.source
+#### add LS in process.source
 
 ```
 process.source.lumisToProcess = cms.untracked.VLuminosityBlockRange('260536:9-260536:37')
@@ -301,14 +301,14 @@ process.source.lumisToProcess = cms.untracked.VLuminosityBlockRange('260536:9-26
 for x in `seq 2 8`; do sed "s/EphemeralHLTPhysics1/EphemeralHLTPhysics$x/" crab_diphoton_304777_x1.py > crab_diphoton_304777_x$x\.py; crab submit -c crab_diphoton_304777_x$x\.py; done
 
 ```
-####copy a file to clipboard
+#### copy a file to clipboard
 
 ```
 xclip -sel c < diphoton_all.txt
 
 ```
 
-####brilcalc shit
+#### brilcalc shit
 
 ```
 export PATH=$HOME/.local/bin:/afs/cern.ch/cms/lumi/brilconda-1.1.7/bin:$PATH
