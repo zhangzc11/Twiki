@@ -1,5 +1,5 @@
 
-## Action List and Schedule (2018July Revive)
+# Action List and Schedule (2018July Revive)
 
    * (done) smear MC time resolution to match with data
    * (done) add MET filters
@@ -29,7 +29,7 @@
    * "tag" method of background estimation (beam halo, ECAL spikes, cosmic ray, etc)
 
 
-## Documentation
+# Documentation
 
 * external references
 
@@ -74,7 +74,7 @@
    * (Zhicai, 03/08/18, first comprehensive update at LLP since July2018 revieve) https://indico.cern.ch/event/746760/contributions/3087174/attachments/1697294/2732354/DisplacedPhoton_03Aug2018_EXO_LLPWG.pdf
    * (Zhicai, 31/08/18, ECAL timing correction preliminary, at LLP meeting) https://indico.cern.ch/event/751280/contributions/3115628/attachments/1708481/2753543/DisplacedPhoton_31Aug2018_EXO_LLPWG.pdf
    
-## Analysis Framework
+# Analysis Framework
    * MINIAOD -> RazorNtupler: https://github.com/RazorCMS/SUSYBSMAnalysis-RazorTuplizer/blob/master/python/razorTuplizer_Data_2016_Rereco_reMiniAOD_EcalRechits_OOTpho.py
    * RazorNtuple -> ZeeTiming Ntuple: https://github.com/RazorCMS/RazorAnalyzer/blob/master/analyzers/ZeeTiming.cc
    * RazorNtuple -> DelayedPhoton Ntuple: https://github.com/RazorCMS/RazorAnalyzer/blob/master/analyzers/DelayedPhotonAnalyzer.cc
@@ -160,9 +160,9 @@ eventTime = iEvent.eventAuxiliary().time().unixTime();
    * Time resolution vs. run period: http://zhicaiz.web.cern.ch/zhicaiz/sharebox/EcalTiming/15May2017/ 
    * Energy vs. time: http://zhicaiz.web.cern.ch/zhicaiz/sharebox/EcalTiming/15May2017/E_vs_time/
 
-## Datasets
+# Datasets
 
-### 2016 
+## 2016 
    * REMINIAOD of 2016 DoubleEG dataset (private): 
       * output in T2 Caltech: https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=dataset%3D%2FDoubleEG%2Fzhicaiz-crab_CMSSW_9_2_5_REMINIAOD_DoubleEG_2016*_T2Caltech_21Sept2017-0df9c016f1cc9d6241c9a6a877912101%2FUSER
       * use CMSSW_9_2_5
@@ -185,9 +185,9 @@ cmsDriver.py REMINIAOD -s PAT --runUnscheduled --nThreads 4 --data --era Run2_20
 
 
 
-## Samples
+# Samples
 
-### Pythia fragments 
+## Pythia fragments 
 
    * GMSB Pythia config (from Livia): https://github.com/lsoffi/GMSB-MC2016-PRODUCTION 
   
@@ -195,7 +195,7 @@ cmsDriver.py REMINIAOD -s PAT --runUnscheduled --nThreads 4 --data --era Run2_20
 
    * Simple gluino -> neutralino -> photon + gravitino pythia config: https://github.com/zhangzc11/McM/blob/master/Configuration/GenProduction/python/ThirteenTeV/GluinoToNeutralinoToGravitinoPhoton_M1000_CTau-5000mm_13TeV_cff.py  (corresponding python file after cmsDriver command: https://github.com/zhangzc11/McM/blob/master/GluinoToNeuToPhoGrav_M1000_CTau5000mm.py)
 
-### Extra instructions in various steps
+## Extra instructions in various steps
 
    * In GEN-SIM step (step 0): CMSSW_7_1_25 (or patch1/2) is the correct 71X release to use, any release since CMSSW_7_1_25_patch3 is bad.
 
@@ -212,20 +212,20 @@ process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AO
       * If you are still not sure, copy everything from Zhicai's directory (80X for step1 and step2, 92X for step3): /afs/cern.ch/work/z/zhicaiz/public/release/McM/forGillian/withGenParticleFix
 
 
-### (Private) GMSB/HVDS Signal samples
+## (Private) GMSB/HVDS Signal samples
 
    * (Kevin, see his email on 07Aug2017-12:04AM CERN TIME for details) [/GMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM/kmcdermo-GMSB_L180_Ctau6000_userHLT_legacy_PAT-MINIAODSIM-v1-ef93839e5df81cfe97dbe8d1e73bf805/USER](https://cmsweb.cern.ch/das/request?instance=prod%2Fphys03&limit=50&input=%2FGMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM%2Fkmcdermo-GMSB_L180_Ctau6000_userHLT_legacy_PAT-MINIAODSIM-v1-ef93839e5df81cfe97dbe8d1e73bf805%2FUSER&view=list)
       * RazorNtuple (on eos): /eos/cms/store/group/phys_susy/razor/run2/Run2DelayedPhotonNtuple_92X/GMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM/2190mm_withOOT.root
    * (Private, grid, on T2_Caltech, MINIAODSIM, 2016): [das link](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=dataset%3D%2FGMSB_L*_13TeV-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GMSB_*_25Oct2017_MINIAODSIM_T2Caltech-159e03626145fdd5d707939f335a7521%2FUSER)
 
-### (Official) GMSB/HVDS 2016 Signal samples
+## (Official) GMSB/HVDS 2016 Signal samples
 
    * HVDS: https://cms-pdmv.cern.ch/mcm/requests?range=EXO-RunIISummer15GS-10956,EXO-RunIISummer15GS-11039&page=0&shown=127
    * GMSB: https://cms-pdmv.cern.ch/mcm/requests?range=EXO-RunIISummer15GS-11171,EXO-RunIISummer15GS-11226&page=0&shown=127
 
-### (Official) GMSB/HVDS 2017 Signal samples
+## (Official) GMSB/HVDS 2017 Signal samples
 
-### (Private/Official re-miniAOD) 2016 Background samples
+## (Private/Official re-miniAOD) 2016 Background samples
 
    * GJets, HT binned
    
