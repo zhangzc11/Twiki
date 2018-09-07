@@ -220,54 +220,20 @@ process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AO
 
 ### (Private/Official re-miniAOD) 2016 Background samples
 
-   * GJets_HT40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM   - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FGJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /GJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_GJets_HT40To100_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER   - [https://cmsweb.cern.ch/das/request?input=%2FGJets_HT-40To100_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GJets_HT40To100_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * GJets_HT100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM   - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FGJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /GJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_GJets_HT100To200_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER   - [https://cmsweb.cern.ch/das/request?input=%2FGJets_HT-100To200_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GJets_HT100To200_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * GJets_HT200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM   - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FGJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /GJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_GJets_HT200To400_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER   - [https://cmsweb.cern.ch/das/request?input=%2FGJets_HT-200To400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GJets_HT200To400_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * GJets_HT400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v2/AODSIM   - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FGJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v2%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_GJets_HT400To600_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER - [https://cmsweb.cern.ch/das/request?input=%2FGJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GJets_HT400To600_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * GJets_HT600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM   - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FGJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /GJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_GJets_HT600ToInf_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER   - [https://cmsweb.cern.ch/das/request?input=%2FGJets_HT-600ToInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GJets_HT600ToInf_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM   - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FQCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /QCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_QCD_HT200To300_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER   - [https://cmsweb.cern.ch/das/request?input=%2FQCD_HT200to300_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_QCD_HT200To300_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FQCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /QCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_QCD_HT300To500_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER - [https://cmsweb.cern.ch/das/request?input=%2FQCD_HT300to500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_QCD_HT300To500_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v2/AODSIM - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FQCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v2%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_QCD_HT500To700_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER - [https://cmsweb.cern.ch/das/request?input=%2FQCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_QCD_HT500To700_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FQCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_QCD_HT700To1000_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER  - [https://cmsweb.cern.ch/das/request?input=%2FQCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_QCD_HT700To1000_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * QCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /QCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FQCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /QCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_QCD_HT1000To1500_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER - [https://cmsweb.cern.ch/das/request?input=%2FQCD_HT1000to1500_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_QCD_HT1000To1500_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * QCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /QCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FQCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /QCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_QCD_HT1500To2000_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER  -  [https://cmsweb.cern.ch/das/request?input=%2FQCD_HT1500to2000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_QCD_HT1500To2000_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
-   * QCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8:
-      * starting from AODSIM: /QCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1/AODSIM - [https://cmsweb.cern.ch/das/request?input=dataset%3D%2FQCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v1%2FAODSIM&instance=prod%2Fglobal](das)
-      * private re-miniAOD output (Caltech T2): /QCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/zhicaiz-crab_CMSSW_9_2_5_QCD_HT2000ToInf_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521/USER - [https://cmsweb.cern.ch/das/request?input=%2FQCD_HT2000toInf_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_QCD_HT2000ToInf_reMiniAOD_19Sept2017-159e03626145fdd5d707939f335a7521%2FUSER&instance=prod%2Fphys03](das)
-      * official re-miniAOD output:
+   * GJets, HT binned
+   
+      * Start from Official AODSIM:
+   
+   https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=dataset%3D%2FGJets_HT-*_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2FRunIISummer16DR80Premix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6_ext1-v*%2FAODSIM
+   
+      * Private reMINIAOD at Caltech T2:
+   
+   https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=%2FGJets_HT-*_TuneCUETP8M1_13TeV-madgraphMLM-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GJets_HT*_reMiniAOD_19Sept2017-*%2FUSER
+   
+   * QCD, HT binned
+   
+      * Start from Official AODSIM:
+   
 
  
 
