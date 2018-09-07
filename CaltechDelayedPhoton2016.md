@@ -250,9 +250,10 @@ Extra instructions in various steps
       * Else if: you produce the MiniAOD by yourself (in 92X), and the AOD is produced in 80X:
          * Method 1 (not recommended): you explicitly save the HepMC collection in your AOD (step 2) and MiniAOD (step 3) by modifying the outputcommand (so that HepMC will be saved in MiniAOD and you can get teh gen vertex time from HepMC):
          
-```         
-process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AOD config) or process.MINIAODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',] (for MiniAOD config)
-```
+         ```         
+         process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AOD config)         
+         process.MINIAODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',] (for MiniAOD config)
+         ```
 
          * Method 2: try to get the genParticles_t0 collection (which is much much smaller than the HepMC collection): 1) in GEN-SIM-RAW (step 1) and AOD (step 2) step, get the following commits and re-compile cmssw: [commit 1](https://github.com/cms-sw/cmssw/commit/064ea373f714e1c0a78df29194edad8a824c0fcf) and [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and then run the same cmsDriver command and do get new GEN-SIM-RAW and AOD (GEN-SIM to GEN-SIM-RAW to AODSIM); 2) in MiniAOD (step 3) step, get the following commit:  [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and and redo the MiniAOD (AODSIM to MINIAODSIM)
       * If you are still not sure, copy everything from Zhicai's directory (80X for step1 and step2, 92X for step3): /afs/cern.ch/work/z/zhicaiz/public/release/McM/forGillian/withGenParticleFix
