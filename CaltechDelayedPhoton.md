@@ -168,14 +168,14 @@ cmsDriver.py REMINIAOD -s PAT --runUnscheduled --nThreads 4 --data --era Run2_20
 
    * reMiniAOD of 2016 DoubleEG dataset (official):
       * razorNtuple location: /eos/cms/store/group/phys_susy/razor/run2/Run2RazorNtupleV4.1/Data/DoubleEG2016ReMiniAOD_EcalRechits/v1/zhicaiz/DoubleEG
-      * [/DoubleEG/Run2016B-17Jul2018_ver1-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016B-17Jul2018_ver1-v1%2FMINIAOD);  done [events: 5686987]; ntuple 100% done
-      * [/DoubleEG/Run2016B-17Jul2018_ver2-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016B-17Jul2018_ver2-v1%2FMINIAOD); done [events: 143073268]; ntuple 100% done
-      * [/DoubleEG/Run2016C-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016C-17Jul2018-v1%2FMINIAOD); done [events: 47677856]; ntuple 100% done
-      * [/DoubleEG/Run2016D-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016D-17Jul2018-v1%2FMINIAOD); done [events: 53324960]; ntuple 100% done
-      * [/DoubleEG/Run2016E-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016E-17Jul2018-v1%2FMINIAOD); done [events: 49877710]; ntuple 100% done
-      * [/DoubleEG/Run2016F-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016F-17Jul2018-v1%2FMINIAOD); done [events: 34577629]; ntuple 100% done
-      * [/DoubleEG/Run2016G-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016G-17Jul2018-v1%2FMINIAOD); done [events: 78797031]; ntuple 100% done
-      * [/DoubleEG/Run2016H-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016H-17Jul2018-v1%2FMINIAOD); done [events: 85388734]; ntuple 100% done
+      * [/DoubleEG/Run2016B-17Jul2018_ver1-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016B-17Jul2018_ver1-v1%2FMINIAOD);  
+      * [/DoubleEG/Run2016B-17Jul2018_ver2-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016B-17Jul2018_ver2-v1%2FMINIAOD); done (events: 143073268); ntuple 100% done
+      * [/DoubleEG/Run2016C-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016C-17Jul2018-v1%2FMINIAOD); done (events: 47677856); ntuple 100% done
+      * [/DoubleEG/Run2016D-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016D-17Jul2018-v1%2FMINIAOD); done (events: 53324960); ntuple 100% done
+      * [/DoubleEG/Run2016E-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016E-17Jul2018-v1%2FMINIAOD); done (events: 49877710); ntuple 100% done
+      * [/DoubleEG/Run2016F-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016F-17Jul2018-v1%2FMINIAOD); done (events: 34577629); ntuple 100% done
+      * [/DoubleEG/Run2016G-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016G-17Jul2018-v1%2FMINIAOD); done (events: 78797031); ntuple 100% done
+      * [/DoubleEG/Run2016H-17Jul2018-v1/MINIAOD](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=%2FDoubleEG%2FRun2016H-17Jul2018-v1%2FMINIAOD); done (events: 85388734); ntuple 100% done
 
 
 
@@ -187,7 +187,7 @@ cmsDriver.py REMINIAOD -s PAT --runUnscheduled --nThreads 4 --data --era Run2_20
   
    * Simple neutralino -> photon + gravitino pythia config:  https://github.com/zhangzc11/McM/blob/master/Configuration/GenProduction/python/ThirteenTeV/NeutralinoNeutralinoToGravitinoGravitinoPhotonPhoton_Tau5000mm_13TeV-pythia8_cff.py  (corresponding python file after cmsDriver command: https://github.com/zhangzc11/McM/blob/master/NeuNeuToPhoGrav_CTau5000mm_71X.py)
 
-   * Simple gluino -> neutralino -> photon + gravitino pythia config: https://github.com/zhangzc11/McM/blob/master/Configuration/GenProduction/python/ThirteenTeV/GluinoToNeutralinoToGravitinoPhoton_M1000_CTau-5000mm_13TeV_cff.py  [corresponding python file after cmsDriver command: https://github.com/zhangzc11/McM/blob/master/GluinoToNeuToPhoGrav_M1000_CTau5000mm.py]
+   * Simple gluino -> neutralino -> photon + gravitino pythia config: https://github.com/zhangzc11/McM/blob/master/Configuration/GenProduction/python/ThirteenTeV/GluinoToNeutralinoToGravitinoPhoton_M1000_CTau-5000mm_13TeV_cff.py  (corresponding python file after cmsDriver command: https://github.com/zhangzc11/McM/blob/master/GluinoToNeuToPhoGrav_M1000_CTau5000mm.py)
 
 ### Extra instructions in various steps
 
@@ -202,7 +202,7 @@ cmsDriver.py REMINIAOD -s PAT --runUnscheduled --nThreads 4 --data --era Run2_20
 process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AOD config) or process.MINIAODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',] (for MiniAOD config)
 ```
 
-      * Method 2: try to get the genParticles_t0 collection (which is much much smaller than the HepMC collection): 1) in GEN-SIM-RAW (step 1) and AOD (step 2) step, get the following commits and re-compile cmssw: [commit 1](https://github.com/cms-sw/cmssw/commit/064ea373f714e1c0a78df29194edad8a824c0fcf) and [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and then run the same cmsDriver command and do get new GEN-SIM-RAW and AOD (GEN-SIM to GEN-SIM-RAW to AODSIM); 2) in MiniAOD (step 3) step, get the following commit:  [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and and redo the MiniAOD (AODSIM to MINIAODSIM)
+         * Method 2: try to get the genParticles_t0 collection (which is much much smaller than the HepMC collection): 1) in GEN-SIM-RAW (step 1) and AOD (step 2) step, get the following commits and re-compile cmssw: [commit 1](https://github.com/cms-sw/cmssw/commit/064ea373f714e1c0a78df29194edad8a824c0fcf) and [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and then run the same cmsDriver command and do get new GEN-SIM-RAW and AOD (GEN-SIM to GEN-SIM-RAW to AODSIM); 2) in MiniAOD (step 3) step, get the following commit:  [commit 2](https://github.com/lgray/cmssw/commit/664fd0d3c8a467ae28b282cc85ac0f20af6bdf88), and and redo the MiniAOD (AODSIM to MINIAODSIM)
       * If you are still not sure, copy everything from Zhicai's directory (80X for step1 and step2, 92X for step3): /afs/cern.ch/work/z/zhicaiz/public/release/McM/forGillian/withGenParticleFix
 
 
@@ -210,7 +210,7 @@ process.AODSIMoutput.outputCommands += ['keep *_generatorSmeared_*_*',]  (for AO
 
    * (Kevin, see his email on 07Aug2017-12:04AM CERN TIME for details) [/GMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM/kmcdermo-GMSB_L180_Ctau6000_userHLT_legacy_PAT-MINIAODSIM-v1-ef93839e5df81cfe97dbe8d1e73bf805/USER](https://cmsweb.cern.ch/das/request?instance=prod%2Fphys03&limit=50&input=%2FGMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM%2Fkmcdermo-GMSB_L180_Ctau6000_userHLT_legacy_PAT-MINIAODSIM-v1-ef93839e5df81cfe97dbe8d1e73bf805%2FUSER&view=list)
       * RazorNtuple (on eos): /eos/cms/store/group/phys_susy/razor/run2/Run2DelayedPhotonNtuple_92X/GMSB_L180_Ctau6000_Pythia8_13TeV_cff_py_GEN_SIM/2190mm_withOOT.root
-   * (Private, grid, on T2_Caltech, MINIAODSIM, 2016): [das link] (https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=dataset%3D%2FGMSB_L*_13TeV-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GMSB_*_25Oct2017_MINIAODSIM_T2Caltech-159e03626145fdd5d707939f335a7521%2FUSER)
+   * (Private, grid, on T2_Caltech, MINIAODSIM, 2016): [das link](https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fphys03&input=dataset%3D%2FGMSB_L*_13TeV-pythia8%2Fzhicaiz-crab_CMSSW_9_2_5_GMSB_*_25Oct2017_MINIAODSIM_T2Caltech-159e03626145fdd5d707939f335a7521%2FUSER)
 
 ### (Official) GMSB/HVDS 2016 Signal samples
 
