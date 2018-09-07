@@ -89,6 +89,7 @@ Work of Cornell Group
    * (Kevin, 01/12/16, general update) https://indico.cern.ch/event/571620/contributions/2327611/attachments/1381097/2099548/dispho_exowksp_2016.pdf
    * (Kevin, 26/06/17, signal sample request) https://indico.cern.ch/event/648483/contributions/2636137/attachments/1482688/2299957/mci_dispho_260617.pdf
    * (Kevin, 27/04/17, trigger 2017) https://indico.cern.ch/event/634617/contributions/2568309/attachments/1450696/2236803/dispho_trigger_update_270417.pdf
+   * (Kevin, 01/12/17, analysis update at EXO workshop) https://indico.cern.ch/event/671803/contributions/2788343/attachments/1568532/2473273/dispho_exowksp2017.pdf
    * (Kevin, 27/04/18, analysis update) https://indico.cern.ch/event/723764/contributions/2976570/attachments/1641243/2621053/llp_270418_mcdermott_v5.pdf
    * (Kevin, 08/06/18, analysis update, with big improvement in limits) https://indico.cern.ch/event/734879/contributions/3031010/attachments/1664663/2668225/llp_mcdermott_080618_v3.pdf
    * (Kevin, 03/08/18, analysis update) https://indico.cern.ch/event/746760/contributions/3095861/attachments/1697310/2732367/llp_mcdermott_030818_v2.pdf
