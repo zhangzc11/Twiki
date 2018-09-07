@@ -5,7 +5,9 @@ Table of contents
 
 <!--ts-->
    * [Table of contents](#table-of-contents)
-   * [Action List and Schedule (2018July Revive)](#Action-List-and-Schedule)
+   * [Action List and Schedule](#action-list-and-schedule)
+   * [Documentation](#documentation)
+   * [Analysis Framework](#analysis-framework)
 <!--te-->
 
 
