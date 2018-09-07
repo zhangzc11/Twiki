@@ -14,6 +14,7 @@ Table of contents
       * [Github Repositories](#github-repositories)
       * [ReMINIAOD for OOT photons](#reminiaod-for-oot-photons)
       * [ECAL Timing Intercalibration](#ecal-timing-intercalibration)
+      * [DelayedPhoton analyzer and output ntuples](#delayedphoton-analyzer-and-output-ntuples)
       * [ZeeTiming analyzer and output ntuples](#zeeTiming-analyzer-and-output-ntuples)
    * [Datasets](#datasets)
       * [2016 DoubleEG](#2016-doubleeg)
@@ -178,6 +179,9 @@ eventTime = iEvent.eventAuxiliary().time().unixTime();
    * time calibration constant tag "EcalTimeCalibConstants_v08_offline" (corresponds to global tag "80X_dataRun2_2016SeptRepro_v7"): /eos/cms/store/group/phys_susy/razor/EcalTiming/EcalTimeCalibConstants_v08_offline/tree_EcalTimeCalibConstants_v08_offline.root
    * time calibration constant tag "EcalTimeCalibConstants_v01_express" (corresponds to global tag "80X_dataRun2_Prompt_v16"): /eos/cms/store/group/phys_susy/razor/EcalTiming/EcalTimeCalibConstants_v01_express/tree_EcalTimeCalibConstants_v01_express.root
    * ADCToGeV constants tag "EcalADCToGeVConstant_3.8T" (just 4 IOVs):  /eos/cms/store/group/phys_susy/razor/EcalTiming/EcalADCToGeVConstant_3.8T/sum_EcalADCToGeVConstant_3.8T.txt
+
+DelayedPhoton analyzer and output ntuples
+-----------------
 
 ZeeTiming analyzer and output ntuples
 -----------------
