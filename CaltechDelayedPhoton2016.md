@@ -92,6 +92,8 @@ Work of Cornell Group
    * (Kevin, 27/04/18, analysis update) https://indico.cern.ch/event/723764/contributions/2976570/attachments/1641243/2621053/llp_270418_mcdermott_v5.pdf
    * (Kevin, 08/06/18, analysis update, with big improvement in limits) https://indico.cern.ch/event/734879/contributions/3031010/attachments/1664663/2668225/llp_mcdermott_080618_v3.pdf
    * (Kevin, 03/08/18, analysis update) https://indico.cern.ch/event/746760/contributions/3095861/attachments/1697310/2732367/llp_mcdermott_030818_v2.pdf
+   * (Kevin, 10/09/18, ECAL timing correction w/ 2017 data)
+https://indico.cern.ch/event/755652/contributions/3131648/attachments/1712909/2762272/timing_studies_2017_egm100918_v2.pdf
 
 Work of Caltech Group
 -----------------
@@ -107,7 +109,9 @@ Work of Caltech Group
    * (Zhicai, 06/06/18, trigger efficiency plots for 2018A data) https://indico.cern.ch/event/734148/contributions/3027883/subcontributions/256606/attachments/1662766/2664948/DelayedPhoton_Trigger_2018A_06June2018_1.pdf
    * (Zhicai, 03/08/18, first comprehensive update at LLP since July2018 revieve) https://indico.cern.ch/event/746760/contributions/3087174/attachments/1697294/2732354/DisplacedPhoton_03Aug2018_EXO_LLPWG.pdf
    * (Zhicai, 31/08/18, ECAL timing correction preliminary, at LLP meeting) https://indico.cern.ch/event/751280/contributions/3115628/attachments/1708481/2753543/DisplacedPhoton_31Aug2018_EXO_LLPWG.pdf
-   
+   * (Zhicai, 10/09/18, ECAL Timing correction, at EGM general meeting)
+https://indico.cern.ch/event/755652/contributions/3131647/attachments/1712883/2762095/ECALTiming2016Data_10Sept2018_EGMGeneralMeeting.pdf
+
 Analysis Framework
 =================
 
