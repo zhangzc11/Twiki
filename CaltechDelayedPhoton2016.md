@@ -140,7 +140,7 @@ ECAL Timing Intercalibration
 
 * Tool
 
- (provided by EGM POG)  [https://github.com/ferriff/usercode](https://github.com/ferriff/usercode){:target="_blank"}
+ (provided by EGM POG)  [https://github.com/ferriff/usercode](https://github.com/ferriff/usercode)
 
 * List of ECAL tags in DB that you can dump
 
