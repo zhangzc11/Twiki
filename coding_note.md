@@ -316,6 +316,10 @@ pip uninstall brilws
 pip install --install-option="--prefix=$HOME/.local" brilws
 ```
 
+#### DAS command line
+```
+dasgoclient --query="file=/store/data/Run2018D/ScoutingMonitor/MINIAOD/PromptReco-v2/000/320/996/00000/480CE41F-5D9C-E811-99C0-FA163EF1B0B3.root"
+```
 
 
 
