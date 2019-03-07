@@ -113,6 +113,8 @@ Work of Caltech Group
 https://indico.cern.ch/event/755652/contributions/3131647/attachments/1712883/2762095/ECALTiming2016Data_10Sept2018_EGMGeneralMeeting.pdf
    * (Zhicai, 11/30/2018, ECAL Timing Approval at EGM/DPG meeting)
 https://indico.cern.ch/event/775874/
+   * (Zhicai, 11/28/2018, Photon ID approval)
+https://indico.cern.ch/event/732984/
 
 Analysis Framework
 =================
