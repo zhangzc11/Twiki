@@ -111,6 +111,8 @@ Work of Caltech Group
    * (Zhicai, 31/08/18, ECAL timing correction preliminary, at LLP meeting) https://indico.cern.ch/event/751280/contributions/3115628/attachments/1708481/2753543/DisplacedPhoton_31Aug2018_EXO_LLPWG.pdf
    * (Zhicai, 10/09/18, ECAL Timing correction, at EGM general meeting)
 https://indico.cern.ch/event/755652/contributions/3131647/attachments/1712883/2762095/ECALTiming2016Data_10Sept2018_EGMGeneralMeeting.pdf
+   * (Zhicai, 11/30/2018, ECAL Timing Approval at EGM/DPG meeting)
+https://indico.cern.ch/event/775874/
 
 Analysis Framework
 =================
