@@ -38,3 +38,12 @@ On pre-fit Asimov toys
    * Run `combine -M FitDiagnostics -t -1 --expectSignal 1` on card_all_bdt.txt, we get: `Best fit r: 1.00664  -0.195907/+0.211237  (68% CL)`
    * Run `python diffNuisances.py -a fitDiagnostics.root -g plots.root` on card_all_cut.txt (--expectSignal 1 fit), we see similar results as seen in the case of --expectSignal 0 
    * Run `python diffNuisances.py -a fitDiagnostics.root -g plots.root` on card_all_bdt.txt (--expectSignal 1 fit), we see similar results as seen in the case of --expectSignal 0 
+  
+Impacts
+---------------------
+
+Impact plots for card_all_cut.txt: https://zhicaiz.web.cern.ch/zhicaiz/sharebox/VVV/combine/impacts_cut.pdf
+
+Impact plots for card_all_bdt.txt: https://zhicaiz.web.cern.ch/zhicaiz/sharebox/VVV/combine/impacts_bdt.pdf
+
+   
