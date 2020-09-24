@@ -152,7 +152,7 @@ ECAL Timing Intercalibration
 
 * Extra Instructions
 
-   * First you need to know which tag you want to dump. Different tags are different measurements. (To see which ECAL tags are used in a global tag, clike the corresponding global tag here and you'll find the information in condDB: [https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideFrontierConditions] (SWGuideFrontierConditions)
+   * First you need to know which tag you want to dump. Different tags are different measurements. (To see which ECAL tags are used in a global tag, clike the corresponding global tag here and you'll find the information in condDB: [https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideFrontierConditions] (SWGuideFrontierConditions) )
    * The output is a bunch of text files. Each file represent a measurement in one IOV, and in the file there are usually the crystal DetID, iEta, iPhi and the corresponding measurement.
    * There are basically two ways to name the output file, one is run based, which usually looks like "since_XXXXXXXX_till_YYYYYYYY", where XXXXXXXX and YYYYYYYY is the start and end run number of that IOV; another way is time stamp based, which the big numbers near "since" and "till" represent the time range of the IOV.
    * Example: if you dump the pedestal tag "EcalPedestals_Legacy2016_time_v1", you will get some files like this:
